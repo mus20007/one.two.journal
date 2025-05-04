@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  window.firebaseDB = db; // Make db accessible to your main script
+</script>
+<div class="upload-container">
+  <input type="file" id="upload-input" accept="image/*" />
+  <button id="upload-button">Upload Memory</button>
+</div>
+
+<div class="memory-carousel-container">
+  <div class="memory-carousel"></div>
+</div>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <title>My Memories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="second-page">
+  <h1>My Memories</h1>
+  <div class="upload-container">
+    <input type="file" id="upload-input" accept="image/*">
+    <button id="upload-button">Upload Memory</button>
+  </div>
+  
+
+  <div class="memory-carousel-container">
+    <div class="memory-carousel" id="memory-carousel">
+      <div class="memory"><img src="images/1.jpg" alt="Memory 1"></div>
+      <div class="memory"><img src="images/2.jpg" alt="Memory 2"></div>
+      <div class="memory"><img src="images/3.jpg" alt="Memory 3"></div>
+      <div class="memory"><img src="images/4.jpg" alt="Memory 4"></div>
+      <div class="memory"><img src="images/5.jpg" alt="Memory 5"></div>
+      <div class="memory"><img src="images/6.jpg" alt="Memory 6"></div>
+      <div class="memory"><img src="images/7.jpg" alt="Memory 7"></div>
+      <div class="memory"><img src="images/8.jpg" alt="Memory 8"></div>
+      <div class="memory"><img src="images/9.jpg" alt="Memory 9"></div>
+      <div class="memory"><img src="images/10.jpg" alt="Memory 10"></div>
+    </div>
+    <div id="delete-popup" class="delete-popup hidden">
+      <button id="delete-btn">Delete Image</button>
+    </div>
+    
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
